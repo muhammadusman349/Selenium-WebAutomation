@@ -1,3 +1,9 @@
+"""
+• Go to https://demoqa.com/upload-download
+• Upload any file.
+
+"""
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait

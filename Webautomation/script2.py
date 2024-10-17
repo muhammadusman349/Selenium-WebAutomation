@@ -1,3 +1,32 @@
+"""
+• Navigate to https://staging.zoneomics.com
+• Create a variable and store “”.
+• Create a variable and store “”.
+• Click Log in Button in the upper right corner
+
+Enter the email in the email field
+• Enter the password in the password field.
+• Click Login Button
+
+On Dashboard verify if the login is successful using the variable initially
+created.
+
+
+Part A:
+• Enter “222 East 41 Street New York USA” in the search field at the top right
+corner of the page.
+• Now extract the value from the search field and print it.
+• Clear the search field.
+
+Part B:
+• Click “See More” On Dashboard, Under Recently Purchased Reports
+
+• Once on Zoning Unlocked Reports Page, check how many records the table
+contains and print it on the console.
+
+"""
+
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -45,19 +74,3 @@ print(f"total number of records: {len(rows)}")
 time.sleep(5)
 
 driver.quit()
-
-
-
-# driver.find_element(By.XPATH, "//a[normalize-space()='Log in']").click()
-# email_field = wait.until(EC.element_to_be_clickable((By.XPATH, "//input[@type='email']")))
-
-# email_field.send_keys(email)
-# password_field = driver.find_element(By.XPATH, "//input[@type='password']")
-# password_field.send_keys(password)
-
-# element = driver.find_element(By.XPATH, "//button[contains(text(),'Login')]")
-# driver.execute_script("arguments[0].click();", element)
-# time.sleep(5)
-# driver.find_element(By.NAME, "dashboard-header-search").click()
-
-# driver.quit()

@@ -1,3 +1,10 @@
+"""
+• Go to https://demo.automationtesting.in/Alerts.html
+• Click “display an alert box”
+• Accept the displayed alert.
+
+"""
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time

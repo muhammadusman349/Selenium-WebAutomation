@@ -1,3 +1,10 @@
+"""
+• Go to https://www.digitaltallycounter.com/
+• Make the counter to go to 100.
+• Verify that the counter is now at 100
+
+"""
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time

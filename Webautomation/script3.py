@@ -1,3 +1,10 @@
+"""
+• Go to https://www.globalsqa.com/demo-site/select-dropdown-menu/
+• Change the dropdown value to “Pakistan”
+• Verify if the dropdown value is changed to “Pakistan” successfully
+
+"""
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
